@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/userPage"
+        android:icon="@mipmap/person"
+        android:orderInCategory="3"
+        android:title="@string/user" />
+    <item
+        android:id="@+id/goalsPage"
+        android:icon="@mipmap/goal"
+        android:orderInCategory="2"
+        android:title="@string/goals" />
+    <item
+        android:id="@+id/toDoPage"
+        android:icon="@mipmap/calendar"
+        android:orderInCategory="1"
+        android:title="@string/to_do" />
+
+    </menu>

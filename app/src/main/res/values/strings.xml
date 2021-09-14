@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="user">User</string>
+    <string name="to_do">To do</string>
+    <string name="goals">Goals</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
