@@ -5,4 +5,7 @@
     <string name="goals">Goals</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Active">Active</string>
+    <string name="Completed">Completed</string>
+    <string name="Failed">Failed</string>
 </resources>

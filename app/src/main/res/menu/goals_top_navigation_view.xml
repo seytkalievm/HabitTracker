@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/active"
+        android:orderInCategory="1"
+        android:title="@string/Active" />
+    <item
+        android:id="@+id/completed"
+        android:orderInCategory="3"
+        android:title="@string/Completed" />
+    <item
+        android:id="@+id/failed"
+        android:orderInCategory="2"
+        android:title="@string/Failed" />
+</menu>
