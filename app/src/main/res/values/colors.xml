@@ -10,4 +10,7 @@
     <color name="main_blue">#3DB2FF</color>
     <color name="main_beige">#FFEDDA</color>
     <color name="transparent_white">#00FFFFFF</color>
+    <color name="pb_red">#FF3D3D</color>
+    <color name="pb_blue">#3DB2FF</color>
+    <color name="pb_green">#00FF38</color>
 </resources>

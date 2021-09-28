@@ -8,4 +8,7 @@
     <string name="Active">Active</string>
     <string name="Completed">Completed</string>
     <string name="Failed">Failed</string>
+    <string name="goal_name">Goal Name</string>
+    <string name="details">details</string>
+    <string name="completedOutOf21"> %1$d/21 completed</string>
 </resources>

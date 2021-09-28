@@ -3,6 +3,7 @@ package com.example.habittracker
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.habittracker.Goals.GoalsFragment
 import com.example.habittracker.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
