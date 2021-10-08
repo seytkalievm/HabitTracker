@@ -1,9 +1,12 @@
 package com.example.habittracker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.habittracker.Goals.GoalsFragment
+import com.example.habittracker.ToDo.TodoFragment
 import com.example.habittracker.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -36,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun onClick(view: View){
+        Toast.makeText(this, "Zaebal", Toast.LENGTH_SHORT).show()
+    }
 
     private fun setCurrentFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction().apply {
@@ -43,4 +49,5 @@ class MainActivity : AppCompatActivity() {
             commit()
         }
     }
+
 }

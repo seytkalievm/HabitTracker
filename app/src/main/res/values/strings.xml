@@ -11,4 +11,8 @@
     <string name="goal_name">Goal Name</string>
     <string name="details">details</string>
     <string name="completedOutOf21"> %1$d/21 completed</string>
+    <string name="the_step_to_be_done_today">The step to be done today</string>
+    <string name="daily_step_not_done">daily step not done</string>
+    <string name="daily_step_done">Daily step done</string>
+    <string name="step">Step %1$d:</string>
 </resources>

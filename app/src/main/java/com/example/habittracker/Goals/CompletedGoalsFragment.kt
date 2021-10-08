@@ -1,15 +1,12 @@
 package com.example.habittracker.Goals
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.habittracker.R
 import com.example.habittracker.databinding.FragmentCompletedGoalsBinding
-import com.example.habittracker.databinding.FragmentGoalsBinding
-import com.example.habittracker.databinding.GoalBinding
 
 class CompletedGoalsFragment : Fragment() {
 
@@ -37,7 +34,7 @@ class CompletedGoalsFragment : Fragment() {
             goalsCompletedRV.layoutManager = LinearLayoutManager(this@CompletedGoalsFragment.context)
             goalsCompletedRV.adapter = adapter
             while (i < 5){
-                val goal = Goal("Goal${i}", i, "completed")
+                val goal = Goal("Goal $i ", i, "completed")
                 adapter.add_goal(goal)
                 i++
             }
