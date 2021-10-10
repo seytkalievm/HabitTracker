@@ -13,9 +13,35 @@ Scientists have proven that it takes 66 days for a person to acquire (or drop) a
 The most difficult in this period of time are the first 21 days. Our application helps a person during this difficult period.
 
 ## :heavy_check_mark: App overview
-User registers in the application. After that he can create a goal: can be chosen one of the existing goals or created a new one from scratch.
-After creating the goal, user will see a daily steps in the tab "To do". The app will send to the user notifications about daily steps everyday.
+User registers in the application. 
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-002146.png" width="200" height="400" />
+
+After that he can log in.
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-002113.png" width="200" height="400" />
+
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-002405.png" width="200" height="400" />
+
+After that he can create a goal: can be chosen one of the existing goals or created a new one from scratch.
+The user will have ative goals:
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-000943.png" width="200" height="400" />
+
+Completed coals:
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-000958.png" width="200" height="400" />
+
+And failed once:
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-000952.png" width="200" height="400" />
+
+After creating the goal, user will see a daily steps in the tab "To do". 
+The app will send to the user notifications about daily steps everyday.
 After completing the daily step the user should mark it as comlete id the tab "To do", or as incomplete overwise.
+
+<img src="https://github.com/seytkalievm/HabitTracker/blob/main/screenshots/Screenshot_20211011-002550.png" width="200" height="400" />
 
 ## :bar_chart: Rationale
 
@@ -76,6 +102,14 @@ If you have questions or suggestions you can contact:
 
 :point_right: [Kamila Khamidullina](https://github.com/Kamila-Khamidullina)
 
+Documentation:
 
+:link: [Software Design Documentation](https://github.com/seytkalievm/HabitTracker/blob/main/Software%20Design%20Documentation.pdf)
 
-:link: References can be found in software design documentation.
+:link: [RUP Artifact](https://github.com/seytkalievm/HabitTracker/blob/main/RUP%20Artifact.pdf)
+
+Front-end code is located in master-branch.
+
+Back-end code is located in backend-branch.
+
+References can be found in software design documentation.
