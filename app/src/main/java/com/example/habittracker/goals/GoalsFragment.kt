@@ -1,10 +1,10 @@
-package com.example.habittracker.Goals
+package com.example.habittracker.goals
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.habittracker.R
 import com.example.habittracker.databinding.FragmentGoalsBinding
 
@@ -12,6 +12,10 @@ import com.example.habittracker.databinding.FragmentGoalsBinding
 class GoalsFragment : Fragment(R.layout.fragment_goals) {
     private var _binding: FragmentGoalsBinding? = null
     private val binding get() = _binding!!
+
+    val activeGoalsFragment = ActiveGoalsFragment.newInstance()
+    val failedGoalsFragment = FailedGoalsFragment.newInstance()
+    val completedGoalsFragment = CompletedGoalsFragment.newInstance()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,10 +29,6 @@ class GoalsFragment : Fragment(R.layout.fragment_goals) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        val activeGoalsFragment = ActiveGoalsFragment.newInstance()
-        val failedGoalsFragment = FailedGoalsFragment.newInstance()
-        val completedGoalsFragment = CompletedGoalsFragment.newInstance()
 
         binding.goalsTopNavigationView.selectedItemId = R.id.active
         setCurrentFragment(activeGoalsFragment)

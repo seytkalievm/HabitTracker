@@ -11,15 +11,20 @@
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/drawable/progress_bar.xml" value="0.24027777777777778" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/drawable/red_progress_bar.xml" value="0.24027777777777778" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/drawable/user_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/activity_authorization.xml" value="0.2" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/activity_goals.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/activity_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/authorization_activity.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/bottom_navigation_view.xml" value="0.11574074074074074" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/daily_step.xml" value="0.25" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_active_goals.xml" value="0.1" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_completed_goals.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_failed_goals.xml" value="0.25407608695652173" />
-        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_goals.xml" value="0.2" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_goals.xml" value="0.8" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_log_in.xml" value="0.21342592592592594" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_login.xml" value="0.21342592592592594" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_register.xml" value="0.21342592592592594" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_todo.xml" value="0.264" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/fragment_user.xml" value="0.3432971014492754" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/layout/goal.xml" value="0.264" />
@@ -35,6 +40,7 @@
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/menu/goals_top_navigation_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
         <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/Makshe/Repos/HabaitTracker/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>

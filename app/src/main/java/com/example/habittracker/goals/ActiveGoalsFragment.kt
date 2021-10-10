@@ -1,4 +1,4 @@
-package com.example.habittracker.Goals
+package com.example.habittracker.goals
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.habittracker.databinding.FragmentCompletedGoalsBinding
+import com.example.habittracker.databinding.FragmentActiveGoalsBinding
 
-class CompletedGoalsFragment : Fragment() {
 
-    private var _binding: FragmentCompletedGoalsBinding? = null
+class ActiveGoalsFragment : Fragment() {
+
+    private var _binding: FragmentActiveGoalsBinding? = null
     private val binding get() = _binding!!
     private val adapter = GoalAdapter()
     private var i = 0
@@ -18,23 +19,23 @@ class CompletedGoalsFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        _binding = FragmentCompletedGoalsBinding.inflate(inflater, container, false)
+    ): View {
+        _binding = FragmentActiveGoalsBinding.inflate(inflater, container, false)
         init()
         return binding.root
     }
 
     companion object {
         @JvmStatic
-        fun newInstance() = CompletedGoalsFragment()
+        fun newInstance() = ActiveGoalsFragment()
     }
 
     private fun init() = with(binding){
         binding.apply {
-            goalsCompletedRV.layoutManager = LinearLayoutManager(this@CompletedGoalsFragment.context)
-            goalsCompletedRV.adapter = adapter
+            goalsActiveRV.layoutManager = LinearLayoutManager(this@ActiveGoalsFragment.context)
+            goalsActiveRV.adapter = adapter
             while (i < 5){
-                val goal = Goal("Goal $i ", i, "completed")
+                val goal = Goal("Goal${i}", i + 5, "active")
                 adapter.add_goal(goal)
                 i++
             }

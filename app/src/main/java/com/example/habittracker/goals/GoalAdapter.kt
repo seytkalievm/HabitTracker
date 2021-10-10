@@ -1,4 +1,4 @@
-package com.example.habittracker.Goals
+package com.example.habittracker.goals
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
